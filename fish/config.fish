@@ -9,6 +9,7 @@ abbr -a -g gco git checkout
 abbr -a -g gadd git add --all
 abbr -a -g gcm git commit -a -m $1
 
-source ~/.config/fish/.bash_aliases
+##--Uncomment if you have bash_aliases file --##
+#source ~/.config/fish/.bash_aliases
 
 
