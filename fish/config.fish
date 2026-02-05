@@ -1,6 +1,6 @@
 if status is-interactive
 end
-neofetch
+fastfetch
 fish_vi_key_bindings
 set -g -x fish_greeting ''
 
