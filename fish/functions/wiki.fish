@@ -1,3 +1,3 @@
-function wiki --wraps='m 11' --description 'alias wiki=m 11'
-  m 11 $argv; 
+function wiki --wraps='cd ~/ivwatch-repos/wiki' --wraps='cd ~/ivwatch-repos/wiki.wiki' --description 'alias wiki=cd ~/ivwatch-repos/wiki.wiki'
+    cd ~/ivwatch-repos/wiki.wiki $argv
 end

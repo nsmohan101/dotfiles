@@ -12,7 +12,7 @@ if test "$FZF_DISABLE_KEYBINDINGS" -ne 1
         bind \ec '__fzf_cd'
         bind \eC '__fzf_cd --hidden'
         bind \cg '__fzf_open'
-        bind \co '__fzf_open --editor'
+        bind \co '__fzf_open --hidden --editor'
 
         if ! test "$fish_key_bindings" = fish_default_key_bindings
             bind -M insert \ct '__fzf_find_file'
@@ -20,7 +20,7 @@ if test "$FZF_DISABLE_KEYBINDINGS" -ne 1
             bind -M insert \ec '__fzf_cd'
             bind -M insert \eC '__fzf_cd --hidden'
             bind -M insert \cg '__fzf_open'
-            bind -M insert \co '__fzf_open --editor'
+            bind -M insert \co '__fzf_open --hidden --editor'
         end
     else
         bind \co '__fzf_find_file'
@@ -28,7 +28,7 @@ if test "$FZF_DISABLE_KEYBINDINGS" -ne 1
         bind \ec '__fzf_cd'
         bind \eC '__fzf_cd --hidden'
         bind \eO '__fzf_open'
-        bind \eo '__fzf_open --editor'
+        bind \eo '__fzf_open --hidden --editor'
 
         if ! test "$fish_key_bindings" = fish_default_key_bindings
             bind -M insert \co '__fzf_find_file'
@@ -36,7 +36,7 @@ if test "$FZF_DISABLE_KEYBINDINGS" -ne 1
             bind -M insert \ec '__fzf_cd'
             bind -M insert \eC '__fzf_cd --hidden'
             bind -M insert \eO '__fzf_open'
-            bind -M insert \eo '__fzf_open --editor'
+            bind -M insert \eo '__fzf_open --hidden --editor'
         end
     end
 

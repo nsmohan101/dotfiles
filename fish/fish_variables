@@ -1,23 +1,27 @@
 # This file contains fish universal variable definitions.
 # VERSION: 3.0
 SETUVAR EDITOR:nvim
+SETUVAR --export FZF_ALT_C_COMMAND:fd\x20\x2d\x2dtype\x20d\x20\x2d\x2dhidden\x20\x2d\x2dfollow\x20\x2d\x2dexclude\x20\x2egit
 SETUVAR FZF_COMPLETE:0
+SETUVAR --export FZF_DEFAULT_COMMAND:fd\x20\x2d\x2dtype\x20f\x20\x2d\x2dhidden\x20\x2d\x2dfollow\x20\x2d\x2dexclude\x20\x2egit
 SETUVAR FZF_DEFAULT_OPTS:\x2d\x2dheight\x2040\x25
 SETUVAR FZF_DISABLE_KEYBINDINGS:0
 SETUVAR FZF_LEGACY_KEYBINDINGS:1
+SETUVAR --export FZF_OPEN_COMMAND:command\x20find\x20\x2dL\x20\x24dir\x20\x2dmindepth\x201\x20\x20\x20\x5c\x28\x20\x2dpath\x20\x24dir\x27\x2a/\x2egit/\x2a\x27\x20\x2do\x20\x2dpath\x20\x24dir\x27\x2a/\x2ecache/\x2a\x27\x20\x2do\x20\x2dpath\x20\x24dir\x27\x2a/\x2elocal/share/Trash/\x2a\x27\x20\x20\x20\x20\x20\x20\x2do\x20\x2dfstype\x20\x27sysfs\x27\x20\x2do\x20\x2dfstype\x20\x27devfs\x27\x20\x2do\x20\x2dfstype\x20\x27devtmpfs\x27\x20\x5c\x29\x20\x2dprune\x20\x20\x20\x2do\x20\x2dtype\x20f\x20\x2dprint\x20\x2do\x20\x2dtype\x20d\x20\x2dprint\x20\x2do\x20\x2dtype\x20l\x20\x2dprint\x202\x3e\x20/dev/null\x20\x7c\x20sed\x20\x27s\x40\x5e\x5c\x2e/\x40\x40\x27
 SETUVAR FZF_PREVIEW_DIR_CMD:ls
 SETUVAR FZF_PREVIEW_FILE_CMD:head\x20\x2dn\x2010
 SETUVAR FZF_TMUX_HEIGHT:40\x25
 SETUVAR --export LOG_CONF:IVW_LOG/tst/dat/logger_conf\x2ejson
-SETUVAR __fish_initialized:3400
+SETUVAR --export --path PATH:/home/nitin\x2emohan/\x2elocal/bin\x1e/home/nitin\x2emohan/\x2elocal/bin\x1e/home/nitin\x2emohan/gcc\x2dlinaro/bin\x1e/home/nitin\x2emohan/\x2elocal/share/nvim/mason/bin\x1e/usr/local/bin\x1e/usr/bin
+SETUVAR __fish_initialized:3800
 SETUVAR _fish_abbr_ccmake:make\x20clean\x20full\x3dtrue\x20\x26\x26\x20make
 SETUVAR _fish_abbr_erase:sudo
 SETUVAR _fish_abbr_make__x86:make\x20BUILD_ARCHS\x3dx86
 SETUVAR _fisher_plugins:jorgebucaran/fisher\x1ejethrokuan/fzf
 SETUVAR _fisher_upgraded_to_4_4:\x1d
-SETUVAR bookmarks:/home/nsmohan\x1e/home/nmohan/ivwatch\x2drepos/ivw\x2dstdlib\x1e/home/nmohan/ivwatch\x2drepos/lem\x2ddata\x2dcollector\x1e/home/nmohan/ivwatch\x2drepos/oem\x2dapp\x1e/home/nmohan/ivwatch\x2drepos/release\x2dtest\x1e/home/nmohan/ivwatch\x2drepos/apollo\x2dmanifest\x1e/home/nmohan/ivwatch\x2drepos/yocto\x2drecipes\x1e/home/nmohan/ivwatch\x2drepos/apollo\x2dapp\x1e/home/nmohan/ivwatch\x2drepos/wiki\x2ewiki\x1e/home/nmohan/ivwatch\x2drepos/lem\x2dtest\x2dapp\x1e/home/nmohan\x1e/home/nmohan/ivwatch\x2drepos/pipeline\x1e/home/nmohan/ivwatch\x2drepos/lem\x2dstdlib\x1e/home/nmohan/ivwatch\x2drepos/lem\x2dbootloader\x1e/home/nmohan/ivwatch\x2drepos/ivwatch\x2dutils\x1e/home/nmohan/ivwatch\x2drepos/lem\x2dtest\x2dtool\x1e/home/nmohan/\x2econfig/fish\x1e/home/nmohan/ivwatch\x2drepos\x1e/home/nmohan/ivwatch\x2drepos/lem\x2dapp\x1e/home/nmohan/apollo\x2dapp
-SETUVAR budspencer_colors:303854\x1e2a2a35\x1eea9509\x1eda9509\x1effa36f\x1efc9867\x1eff5555\x1eff6e96\x1e9d79d6\x1e6c6f93\x1e8be9fd\x1e50fa7b
-SETUVAR budspencer_cursors:\x5c033\x5d12\x3b\x236c6f93\x5c007\x1e\x5c033\x5d12\x3b\x23ffa36f\x5c007\x1e\x5c033\x5d12\x3b\x23ff6e96\x5c007\x1e\x5c033\x5d12\x3b\x239d79d6\x5c007
+SETUVAR bookmarks:/home/nitin\x2emohan/ivwatch\x2drepos/ivw\x2dembd\x2ddrivers\x1e/home/nitin\x2emohan/ivwatch\x2drepos/controller\x2dbsp\x1e/home/nitin\x2emohan/ivwatch\x2drepos/controller\x2dbootloader\x1e/home/nitin\x2emohan/ivwatch\x2drepos/oem\x2dbootloader\x1e/home/nitin\x2emohan/ivwatch\x2drepos/controller\x2dapp\x1e/home/nitin\x2emohan/\x2elocal/share/nvim/site/pack/packer/start\x1e/home/nitin\x2emohan\x1e/home/nitin\x2emohan\x1e/home/nitin\x2emohan/ivwatch\x2drepos/ivw\x2dstdlib\x1e/home/nitin\x2emohan/ivwatch\x2drepos/lem\x2ddata\x2dcollector\x1e/home/nitin\x2emohan/ivwatch\x2drepos/oem\x2dapp\x1e/home/nitin\x2emohan/ivwatch\x2drepos/release\x2dtest\x1e/home/nitin\x2emohan/ivwatch\x2drepos/apollo\x2dmanifest\x1e/home/nitin\x2emohan/ivwatch\x2drepos/yocto\x2drecipes\x1e/home/nitin\x2emohan/ivwatch\x2drepos/apollo\x2dapp\x1e/home/nitin\x2emohan/ivwatch\x2drepos/wiki\x2ewiki\x1e/home/nitin\x2emohan/ivwatch\x2drepos/lem\x2dtest\x2dapp\x1e/home/nitin\x2emohan\x1e/home/nitin\x2emohan/ivwatch\x2drepos/pipeline\x1e/home/nitin\x2emohan/ivwatch\x2drepos/lem\x2dstdlib\x1e/home/nitin\x2emohan/ivwatch\x2drepos/lem\x2dbootloader\x1e/home/nitin\x2emohan/ivwatch\x2drepos/ivwatch\x2dutils\x1e/home/nitin\x2emohan/ivwatch\x2drepos/lem\x2dtest\x2dtool\x1e/home/nitin\x2emohan/\x2econfig/fish\x1e/home/nitin\x2emohan/ivwatch\x2drepos\x1e/home/nitin\x2emohan/ivwatch\x2drepos/lem\x2dapp\x1e/home/nitin\x2emohan/apollo\x2dapp
+SETUVAR budspencer_colors:0f1026\x1e0f1026\x1e6b5fd6\x1ee0d9ff\x1e8b7cff\x1e8b7cff\x1ed48ac2\x1e9d8cff\x1ee0d9ff\x1ef2b5d4\x1ef2b5d4\x1eb6a6ff
+SETUVAR budspencer_cursors:\x5c033\x5d12\x3b\x23f2b5d4\x5c007\x1e\x5c033\x5d12\x3b\x238b7cff\x5c007\x1e\x5c033\x5d12\x3b\x239d8cff\x5c007\x1e\x5c033\x5d12\x3b\x23e0d9ff\x5c007
 SETUVAR budspencer_day:000000\x1e333333\x1e666666\x1effffff\x1effff00\x1eff6600\x1eff0000\x1eff0033\x1e3300ff\x1e00aaff\x1e00ffff\x1e00ff00
 SETUVAR budspencer_night:000000\x1e083743\x1e445659\x1efdf6e3\x1eb58900\x1ecb4b16\x1edc121f\x1eaf005f\x1e6c71c4\x1e268bd2\x1e2aa198\x1e859900
 SETUVAR budspencer_no_cd_bookmark:\x1d
@@ -25,7 +29,7 @@ SETUVAR budspencer_nocmdhist:c\x1ed\x1ell\x1els\x1em\x1es
 SETUVAR budspencer_nogreeting:\x1d
 SETUVAR budspencer_pwdstyle:long
 SETUVAR budspencer_session_cmd_hist_test:ssh\x20root\x40192\x2e168\x2e76\x2e83\x1essh\x20devServer\x1ell\x20dat/\x1ecd\x20\x7e/ivwatch\x2drepos/ivwatch\x2dutils/\x1eclear\x1egit\x20status\x1egit\x20difftool\x20\x2a
-SETUVAR budspencer_session_dir_hist_test:/home/nmohan\x1e/home/nmohan/ivwatch\x2drepos/apollo\x2dapp\x1e/home/nmohan/ivwatch\x2drepos/ivwatch\x2dutils
+SETUVAR budspencer_session_dir_hist_test:/home/nitin\x2emohan\x1e/home/nitin\x2emohan/ivwatch\x2drepos/apollo\x2dapp\x1e/home/nitin\x2emohan/ivwatch\x2drepos/ivwatch\x2dutils
 SETUVAR budspencer_sessions:test
 SETUVAR budspencer_sessions_active:\x1d
 SETUVAR budspencer_sessions_active_pid:\x1d
@@ -46,7 +50,7 @@ SETUVAR fish_color_operator:00a6b2
 SETUVAR fish_color_param:ffffff
 SETUVAR fish_color_quote:999900
 SETUVAR fish_color_redirection:00afff
-SETUVAR fish_color_search_match:bryellow\x1e\x2d\x2dbackground\x3dbrblack
+SETUVAR fish_color_search_match:white\x1e\x2d\x2dbackground\x3dbrblack
 SETUVAR fish_color_selection:white\x1e\x2d\x2dbold\x1e\x2d\x2dbackground\x3dbrblack
 SETUVAR fish_color_status:red
 SETUVAR fish_color_user:brgreen
@@ -57,6 +61,6 @@ SETUVAR fish_pager_color_description:B3A06D\x1eyellow
 SETUVAR fish_pager_color_prefix:normal\x1e\x2d\x2dbold\x1e\x2d\x2dunderline
 SETUVAR fish_pager_color_progress:brwhite\x1e\x2d\x2dbackground\x3dcyan
 SETUVAR fish_pager_color_selected_background:\x2dr
-SETUVAR fish_user_paths:/home/nsmohan/\x2elocal/bin\x1e/home/nmohan/gcc\x2dlinaro/bin\x1e/home/nmohan/\x2elocal/share/nvim/mason/bin
+SETUVAR fish_user_paths:/home/nitin\x2emohan/\x2elocal/bin\x1e/home/nitin\x2emohan/gcc\x2dlinaro/bin\x1e/home/nitin\x2emohan/\x2elocal/share/nvim/mason/bin
 SETUVAR --export ivw_cmake:/usr/local/lib/ivwatch/lem/cmake/
 SETUVAR purpleTheme:333333\x20333333\x2083769c\x20ffffff\x20c386f1\x20c386f1\x20ff0000\x202e9599\x20ffffff\x20ff479c\x20ff479c\x2000ff00

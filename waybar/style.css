@@ -7,7 +7,7 @@
 }
 
 window#waybar {
-  background: rgba(20, 20, 30, 0.85);
+  background: rgba(15, 16, 38, 0.92);
   border-radius: 12px;
   border: 2px solid rgba(100, 100, 255, 0.3);
   box-shadow: 0 0 10px rgba(150, 150, 255, 0.2);
@@ -32,7 +32,9 @@ window#waybar {
 
 #workspaces button.urgent {
   background-color: #f38ba8;
-  color: #1e1e2e;
+  color: #ff4d4d;
+  border: 2px solid #ff0000;
+  border-radius: 8px;
 }
 
 #workspaces button:hover {

@@ -1,2 +1,4 @@
+package fzf
 theme budspencer
 theme default
+theme fox
